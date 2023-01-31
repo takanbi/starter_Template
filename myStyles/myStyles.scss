@@ -1,0 +1,17 @@
+// add google fonts etc, use @font-face to incorporate your fave fonts, create variables for your favorite colors and fonts, set some custom dimensions up using a classs structure system
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+#myContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
