@@ -1,25 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:wght@100;400&family=Roboto:wght@100;300;400&display=swap");
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 
 #myContainer {
   width: 100%;
   height: 100vh;
-  background-color: #4158D0;
-  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-  display: -webkit-box;
-  display: -ms-flexbox;
+  background-color: #4158d0;
+  background-image: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-/*# sourceMappingURL=myStyles.css.map */
+
+#myContainer #wrapper0 {
+  visibility: hidden;
+}
+
+#myContainer #wrapper0 #heading0 {
+  color: #FFF;
+}
