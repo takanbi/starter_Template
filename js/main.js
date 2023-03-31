@@ -20,7 +20,7 @@ $(function () {
       y: 50,
       ease: "back(4)",
       stagger: 0.05
-    },"+=2");
+    },"+=0.5");
     GSDevTools.create({
       animation0: "animation0"
     });
