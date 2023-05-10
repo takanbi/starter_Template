@@ -6,6 +6,10 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
+  @font-face {
+    font-family: ITC-Avant-Garde-Gothic;
+    src: url(../fonts/ITC-Avant-Garde-Gothic-Bold.otf);
+  }
 }
 #myContainer {
   width: 100%;
@@ -24,6 +28,8 @@
     visibility: hidden;
     #heading0 {
       color: #FFF;
+      font-family: ITC-Avant-Garde-Gothic;
+      font-size: 2.5rem;
     }
   }
 }

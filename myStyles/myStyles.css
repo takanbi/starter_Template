@@ -7,6 +7,13 @@
   font-family: "Lato", sans-serif;
 }
 
+@font-face {
+  * {
+    font-family: ITC-Avant-Garde-Gothic;
+    src: url(../fonts/ITC-Avant-Garde-Gothic-Bold.otf);
+  }
+}
+
 #myContainer {
   width: 100%;
   height: 100vh;
@@ -23,4 +30,6 @@
 
 #myContainer #wrapper0 #heading0 {
   color: #FFF;
+  font-family: ITC-Avant-Garde-Gothic;
+  font-size: 2.5rem;
 }
